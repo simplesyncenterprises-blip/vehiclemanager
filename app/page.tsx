@@ -1,5 +1,9 @@
-import { redirect } from 'next/navigation';
+import React from "react";
 
-export default function Home() {
-  redirect('/dashboard');
+export default function Page() {
+  return (
+    <main>
+      <h1>Vehicles</h1>
+    </main>
+  );
 }
